@@ -1,0 +1,24 @@
+.tale{
+border:1px solid red;
+border-radius:20px;
+width:100%;
+padding:10px;
+margin:15px 0;
+transition:border,background 0.5s;
+cursor:pointer;
+}
+.tale:hover{
+border:2px solid green;
+background:#d4ffd4;
+}
+.tale. title{
+font-size:30px;
+font-weight:bold;
+margin:10px 0;
+}
+.tale. cast{
+font-size:20px;
+}
+.tale. price{
+font-size:20px;
+}

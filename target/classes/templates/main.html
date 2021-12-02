@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="httt://www.thymeleaf.orh">
+
+<head>
+    <meta charset="UTF-8">
+    <title>WypozyczalniaBajek</title>
+    <link rel="stylesheet" href="/cssmain.css"/>
+    <link rel="stylesheet" href="/tale.css"/>
+</head>
+<body>
+
+<div id="menu">
+    <a href="/nauczyciel">Nauczyciel</a>
+    <a href="/student">Student</a>
+    <!--
+    <a href="/login" th:if="${logged==false}">Zaloguj</a>
+    <a href="/logout" th:if="${logged==true}">Wyloguj</a>
+
+</div>
+
+<div id="content">
+
+<div class="tale" th:each="tale:${tales}">
+    <div th:text="${tale.title}"class="title"></div>
+    <div th:text="'Obsada:'+${tale.cast}"class="cast"></div>
+    <div th:text="'Tagi:'+${tale.tag}"class="tag"></div>
+</div>
+    -->
+
+</div>
+
+</body>
+</html>
